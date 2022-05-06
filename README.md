@@ -34,4 +34,4 @@ W and THETA bands are estimated based on the Optical Trapezoidal Model (OPTRAM) 
 14G	./dataset_v0/
 ```
 
-See exploring_notebook.ipynb to learn about using the data. 
+See [exploring_dataset.ipynb](https://github.com/VicenteYago/soil_moisture_dataset/blob/main/exploring_dataset.ipynb) to learn about using the data. 

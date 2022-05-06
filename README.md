@@ -33,3 +33,5 @@ W and THETA bands are estimated based on the Optical Trapezoidal Model (OPTRAM) 
 858M	./dataset_v0/SCL
 14G	./dataset_v0/
 ```
+
+See exploring_notebook.ipynb to learn about using the data. 

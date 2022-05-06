@@ -1,5 +1,16 @@
 # soil_moisture_dataset
-Based on OPTRAM model
+Based on OPTRAM model for [Walnut Gulch Watershed area](https://github.com/VicenteYago/OPTRAM).
+
+Highlights: 
+- 1 year of sentinel2 imagery (2019)
+- 8 bands: 
+ - optical: R,G,B
+ - IR: NIR, SWIR
+ - mask: SCL
+ - humidity normalized: W
+ - humidty estimated: THETA  
+
+W and THETA bands are estimated based on the Optical Trapezoidal Model (OPTRAM) as described by [sadegui et al 2017](https://www.sciencedirect.com/science/article/abs/pii/S0034425717302493).
 
 ```{bash}
 858M	./dataset_v0/G/masked

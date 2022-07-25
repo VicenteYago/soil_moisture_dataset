@@ -20,7 +20,7 @@ for index_dt , row_n in zip(inSitu_dfs_global.index, range(len(inSitu_dfs_global
 for band in bands : 
     inSitu_dfs_global[band] = [row[band] for row in data]
 
-validation = inSitu_dfs_global[bands+["ndvi", "SM5"]]
+validation = inSitu_dfs_global[bands+["ndvi", "W", "SM5"]]
 
 with open('validation.pkl', 'wb') as handle:
     pickle.dump(validation, handle, protocol=pickle.HIGHEST_PROTOCOL)
